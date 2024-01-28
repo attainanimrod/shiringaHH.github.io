@@ -11,19 +11,19 @@ class SpecialHeader extends HTMLElement
                     <div class="row gx-0" style="background-color: #26f3fa;" d-none d-lg-flex padd">
                         <div class="col-lg-7 px-9 text-start">
                             <div class="h-100 d-inline-flex align-items-center ">
-                                <i class="fas fa-map-marker-alt text-light me-2"></i>
-                                <p class="mb-0">1387, Olifant Drive, Marloth Park 1340, Mpumalanga </p>
+                                <a class="fas fa-map-marker-alt text-light me-2" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4287.710473565623!2d31.766258707576267!3d-25.35387091274441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ee7dd9c65836b45%3A0xfe1f2c0339c83b5f!2sKruger%20Shiringa%20Holiday%20Home!5e0!3m2!1sen!2sza!4v1704732447787!5m2!1sen!2sza"></a>
+                                <p class="mb-0">1387, Olifant Drive </p>
                             </div>
                             <div class="h-100 d-inline-flex align-items-center">
-                                <i class="fa fa-envelope text-light me-2"></i>
-                                <p class="mb-0">info@example.com    </p>
+                                <a class="fa fa-envelope text-light me-2" href="mailto:info@example.com"></a>
+                                <p class="mb-0" href="mailto:info@example.com">info@example.com    </p>
                             </div>
                             <div class="h-100 d-inline-flex align-items-center ">
-                                <i class="fa fa-phone-alt text-light me-2"></i>
-                                <a class="mb-0 text-dark"  href="tel:(+27)796416809" >(+27)79 641 6809 </a>
+                                <a class="fa fa-phone-alt text-light me-2"  href="tel:(+27)796416809"></a>
+                                <a class="mb-0 text-dark"  href="tel:(+27)796416809" >+27 79 641 6809 </a>
                             </div>
                         </div>
-                        <div class="col-lg-5 px-5 text-end">
+                        <div class="col-lg-5 px-5 text-end ">
                             <div class="d-inline-flex align-items-center py-2">
                                 <a class="me-3 btn-outline-light btn-social" href="https://wa.me/+27796416809"><i class="fab fa-whatsapp"></i></a>
                                 <a class="me-3 btn-outline-light btn-social" href="https://www.facebook.com/profile.php?id=61555469121540"><i class="fab fa-facebook-f"></i></a>
@@ -88,7 +88,7 @@ class SpecialFooter extends HTMLElement
                     <div class="col-md-6 col-lg-5">
                         <h6 class="section-title text-start text-primary text-uppercase mb-4">Contact</h6>
                         <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>1387, Olifant Drive, Marloth Park 1340, Mpumalanga</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+27 79 641 6809</p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
                         <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social" href="https://wa.me/+27796416809"><i class="fab fa-whatsapp"></i></a>
@@ -128,7 +128,7 @@ class SpecialFooter extends HTMLElement
                             &copy; <a class="border-bottom" href="index.html">Shiringa Holiday Home</a>, All Right Reserved. 
 							
 							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+							Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> <a>&</a> <a class="border-bottom" href="https://github.com/attainanimrod">  attaina</a>
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
